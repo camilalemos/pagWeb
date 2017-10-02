@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dejanos tu comentario</title>
+<link rel="stylesheet" href="css/normalice.css">
+<link href="imagenes/2.jpg" type="image/x-icon" rel="shortcut icon"/>
+<link rel="stylesheet" href="css/estilo2.css">
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
+<body>
+<header>
+<form action="registrardatos.php" method="post">
+<label for="nombre">Nombre y Apellido:</label>
+<input type="text" name="nombre" size="30" id="nombre">
+<br>
+Soy:
+<select name="Quien es">
+<option value="1">Comprador</option>
+<option value="2">Vendedor</option>
+<option value="3">Ambos</option>
+<option value="4">Otro</option>
+</select> <br>
+Me interesa:<select name="Interes">
+<option value="1">Ropa </option>
+<option value="2">Calzado </option>
+<option value="3">Accesorios </option>
+<option value="4">Todos </option>
+</select> <br>
+
+Asunto:
+<input type="text" name="Asunto" size="20"><br>
+<label for="mail">Mail o telefono</label>
+<input type="text" name="mail" size="40" id="mail">
+<br>
+Mensaje:
+<br>
+<textarea name="comentarios" rows="15" cols="30" maxlength="300">ingrese aquí su comentario</textarea>
+<br>
+<input type="submit" value="enviar">
+</form>
+</header>
+<br> <br> 
+<footer>
+<h1>
+Lisboa,tu lugar.
+</h1></footer>
+</body>
+</html>

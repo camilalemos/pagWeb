@@ -1,0 +1,45 @@
+/*
+etiqueta{ 
+        propiedad: valor;
+}
+*/
+
+
+/* Google Fonts para Fuente de letra
+colores: https://html-color-codes.info/codigos-de-colores-hexadecimales/*/
+body{
+background:#000;
+font-family: 'Gloria Hallelujah', cursive;
+font-size:20px;
+    }
+header nav {
+           color:#000;
+           background-color:#20B2AA;
+           text-align:right;
+           height:80px; 
+           }
+header figure{
+         float:left;
+         margin-left:0px
+           }
+         
+header figure img{
+               width:1436px;
+               height:700px;
+              }
+section p{
+    color:white;
+    width:1360px;
+    text-align:center
+          }
+
+section article {
+               width:1436px;
+               height:200px;
+               background-color:#3CB371;
+                }
+
+
+footer{
+color:white;
+}
