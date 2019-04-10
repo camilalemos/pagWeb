@@ -9,23 +9,64 @@ etiqueta{
 colores: https://html-color-codes.info/codigos-de-colores-hexadecimales/*/
 body{
 background:#000;
-font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Oswald', sans-serif;
 font-size:20px;
     }
-header nav {
+header nav{
+           text-decoration:none;
+           padding:0px;
+           margin-top:0px;
            color:#000;
            background-color:#20B2AA;
+           display:inline-block;
+           width:1435px;
+           height:150px;
+           margin-right:0px;
+           word-spacing:10px;
+           text-align:left;
+           font-size:2.0em;
+           position:relative;      
+             
+              }
+header nav p{ 
+           font-size:0.5em;         
+           margin-top:0px;
            text-align:right;
-           height:80px; 
+           display:inline-block;
+           position:absolute;
+           padding-left:950px;
+           padding-top:10px;
+           
            }
+header nav ul {
+              padding:0px;
+              margin:0px;
+              text-align:center;
+              list-style:none;
+              background-color:black;
+              display:inline-block;
+              width:1435px;
+              }
+header nav ul li {
+                text-align:center;
+                margin:50px;
+                height:50px;
+                width:220px;
+                display:inline-block;
+                
+               }
+header nav ul li a{
+               color:white;
+              
+              }
 header figure{
          float:left;
          margin-left:0px
            }
          
 header figure img{
-               width:1436px;
-               height:700px;
+               width:1435px;
+               height:900px;
               }
 section p{
     color:white;
@@ -34,12 +75,28 @@ section p{
           }
 
 section article {
-               width:1436px;
+               width:1435px;
                height:200px;
                background-color:#3CB371;
                 }
 
 
-footer{
-color:white;
-}
+article{ 
+      background-color:white;
+      text-align:center; 
+      width:1435px;
+      height:300px;
+      position:relative;
+      border-radius:15px 15px 15px 15px;
+      margin:50px 0px 20px ;
+       }
+
+article h3 {
+         color:black;      
+          }
+article p {
+         color:gray;
+         }
+article h2 {
+         color:#786F6D;
+           }
